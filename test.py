@@ -21,7 +21,7 @@ def scann():
             print(Fore.WHITE + '\n{} is open at Port: {}'.format(var2, port) + Fore.RESET)
         s.close()
 
-    return 'Finished!!'
+    print("\n",10 * '-',"Scanning Finished!!",10 * '-')
 
 with open('readme.md','r') as file2:
     var2 = file2.read()
